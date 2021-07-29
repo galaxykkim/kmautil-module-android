@@ -1,0 +1,3 @@
+rootProject.name = "SampleKmaUtil"
+include ':app'
+include ':KmaUtil'

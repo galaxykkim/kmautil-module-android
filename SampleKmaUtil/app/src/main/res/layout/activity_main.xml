@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기상청 API 유틸리티"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGetPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좌표계 가져오기"/>
+
+    <Button
+        android:id="@+id/btnGetAreaNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지점코드 가져오기"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
